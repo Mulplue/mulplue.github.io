@@ -392,7 +392,7 @@ $(function() {
 			}
 		})
 	};
-	var path = "/search.xml";
+	var path = "/public/search.xml";
 	if(document.getElementById('local-search-input') !== null){
 		searchFunc(path, 'local-search-input', 'local-search-result');
 	}
